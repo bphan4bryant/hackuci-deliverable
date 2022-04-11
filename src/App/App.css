@@ -25,12 +25,6 @@
   color: white;
 }
 
-@media (max-width: 800px) {
-  .App-header {
-    background-image: linear-gradient(to bottom,#ff7b5c,#ff6c81);
-  }
-}
-
 .App-link {
   color: #61dafb;
 }
@@ -67,5 +61,19 @@
   }
   to {
     transform: translateY( 100% );
+  }
+}
+
+@media (max-width: 992px) {
+  .App-header {
+    background-image: linear-gradient(to bottom,#ff7b5c,#ff6c81);
+  }
+  @keyframes y {
+    from {
+      transform: translateY( -5% );
+    }
+    to {
+      transform: translateY( 30% );
+    }
   }
 }
