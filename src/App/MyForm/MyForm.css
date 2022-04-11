@@ -1,0 +1,35 @@
+.Back {
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px rgb(37, 37, 37);
+    width: 80%;
+    height: 100%;
+}
+
+Button {
+    background-image: linear-gradient(to right,#ff7b5c,#ff6c81);
+}
+
+@media (max-width: 800px) {
+    Button {
+      background-image: linear-gradient(to bottom,#ff7b5c,#ff6c81);
+    }
+  }
+
+.form-vertical {
+    text-align: left;
+}
+
+.form-bot {
+    text-align: right;
+}
+
+.Label {
+    color: black;
+    text-align: left;
+}
+
+.Title {
+    color: black;
+}
+
